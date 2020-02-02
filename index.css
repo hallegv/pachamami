@@ -1,29 +1,64 @@
 .fcpage {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
+  background: #FFB6C1;
 }
 
-.fc-header {
+.fcheader {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 90vh;
   background: center / cover no-repeat
     url(https://github.com/hallegv/pachamami/blob/master/bran575-019.jpeg?raw=true);
 }
 
-.fcbuttons {
+.flex-container-slogan {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.slogan {
+  font-size: 75px;
+  color: white;
+  font-family: "helvetica neue";
+}
+
+#name {
+  font-size: 25px;
+  color: white;
+  font-family: "helvetica neue";
+}
+
+.wrapper {
+  text-align: center;
+  padding: 100px;
+}
+
+.nav {
   display: flex;
   flex-shrink: 1;
-  flex-wrap: nowrap;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.flex-container-buttons {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+
 }
 
 .button {
-  background-color: #abc;
-  color: white;
+  background: none;
+  color: #FFB6C1;
   font-family: "gill sans";
   font-size: 40px;
-  height: 70px;
+  height: 90px;
   width: 300px;
 
   float: left;
@@ -32,12 +67,54 @@
 }
 
 .button:hover {
-  background-color: white;
-  color: #abc;
+  background: none;
+  color: #FFB6C1;
   font-family: "gill sans";
-  font-size: 40px;
-  height: 77px;
-  width: 330px;
+  font-size: 60px;
+  height: 90px;
+  width: 300px;
   float: left;
+  border: 0.5px;
+}
+
+.footer {
+  display: flex;
+  height: 300px;
+  flex-shrink: 1;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#home {
+  background: url()
+}
+
+.message {
+  font-size: 25px;
+  color: white;
+  font-family: "helvetica neue";
+}
+
+/* .button2 {
+  display: flex;
+  flex-shrink: 1;
+  transition-duration: 0.4s;
+  font-family: "helveticaneue-light";
+  font-size: 40px;
+  height: 75px;
+
+  background-color: #303030;
+  color: white;
+  border: 0.5px;
+}
+
+.button2:hover {
+  transition-duration: 0.4s;
+  font-family: "helveticaneue-light";
+  font-size: 40px;
+  height: 75px;
+  background-color: white;
+  color: #303030;
   border: 0.5px;
 }
