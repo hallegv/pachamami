@@ -7,7 +7,7 @@ body {
   flex-direction: column;
   height: 100vh;
   background: center / cover no-repeat
-    url(https://github.com/hallegv/pachamami/blob/master/bran575-019.jpeg?raw=true);
+  url(images/bran575-019.jpeg);
 }
 
 .flex-container-slogan {
