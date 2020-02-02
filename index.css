@@ -1,0 +1,43 @@
+.fcpage {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.fc-header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: center / cover no-repeat
+    url(https://i.kym-cdn.com/entries/icons/original/000/030/967/spongebob.jpg);
+}
+
+.fcbuttons {
+  display: flex;
+  flex-shrink: 1;
+  flex-wrap: nowrap;
+}
+
+.button {
+  background-color: #abc;
+  color: white;
+  font-family: "gill sans";
+  font-size: 40px;
+  height: 70px;
+  width: 300px;
+
+  float: left;
+  border: 0.5px;
+  transition-duration: 0.3s;
+}
+
+.button:hover {
+  background-color: white;
+  color: #abc;
+  font-family: "gill sans";
+  font-size: 40px;
+  height: 77px;
+  width: 330px;
+  float: left;
+  border: 0.5px;
+}
