@@ -5,9 +5,8 @@ body {
 .fcheader {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 20vh;
   background: center / cover no-repeat
-    url(https://github.com/hallegv/pachamami/blob/master/bran575-019.jpeg?raw=true);
 }
 
 .flex-container-slogan {
@@ -16,7 +15,7 @@ body {
   display: flex;
   flex-grow: 1;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .slogan {
@@ -39,7 +38,8 @@ body {
 .nav {
   display: flex;
   flex-shrink: 1;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0);
+
 }
 
 .flex-container-buttons {
@@ -55,7 +55,7 @@ body {
 
 .button {
   background: none;
-  color: #FFB6C1;
+  color: #FFFFFF;
   font-family: "gill sans";
   font-size: 40px;
   height: 90px;
@@ -68,7 +68,7 @@ body {
 
 .button:hover {
   background: none;
-  color: #FFB6C1;
+  color: #FFFFFF;
   font-family: "gill sans";
   font-size: 60px;
   height: 90px;
@@ -77,13 +77,26 @@ body {
   border: 0.5px;
 }
 
-.footer {
+.header {
+  font-family: "gill sans";
+  font-size: 50px;
   display: flex;
-  height: 300px;
+  height: 2.5vh;
   flex-shrink: 1;
   flex-wrap: nowrap;
   justify-content: space-evenly;
-  align-items: center;
+  text-align: right;
+}
+
+.footer {
+  font-family: "gill sans";
+  font-size: 25px;
+  display: flex;
+  height: 15vh;
+  flex-shrink: 1;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  text-align: right;
 }
 
 #home {
@@ -94,4 +107,8 @@ body {
   font-size: 25px;
   color: white;
   font-family: "helvetica neue";
+}
+
+.a {
+  color: #FFFFFF;
 }
